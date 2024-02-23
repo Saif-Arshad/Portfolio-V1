@@ -5,7 +5,7 @@ import Dictionary from "../../assets/Images/Projects/Dictionary.jpg";
 const projectsData = [
   {
     id: 1,
-    title: "TheInkMosaic",
+    title: "TheInkMosaic (Tattoo Agency)",
     description: "Explore our tattoo studio website, crafted with GSAP animation library, boasting exceptional animations that captivate. Dive into creativity.",
     imageUrl:`${InkMosaic}`
     ,
@@ -17,7 +17,7 @@ const projectsData = [
   {
     id: 2,
     title: "CGP Calculator",
-    description: "Instantly calculate your CGPA using university grades with our convenient CGPA generator app.",
+    description: "Instantly calculate your CGP using university grades with our convenient CGP generator app.",
     imageUrl:
       `${CGP}`
       ,

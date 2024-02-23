@@ -56,9 +56,6 @@
     .portfolio-card{
         width: 250px;
     }
-   .portfolio-card .firstsvg {
-        margin-left: 97px;
-    }
     .portfolio-card h3 {
         font-size: 17px;}
      .projectsub h2 {
@@ -70,3 +67,13 @@
     }
 }
 
+@media screen  and (max-width:773px) {
+    .Keeptouch p{
+        width: 93% !important;
+    }
+}
+@media screen and (max-width:380px) {
+    .portfolio-card .firstsvg {
+        margin-left: 97px;
+    }
+}

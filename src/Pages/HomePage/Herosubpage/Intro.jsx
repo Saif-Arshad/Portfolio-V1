@@ -16,12 +16,16 @@ function Intro() {
       <TypingName/>
     </h1>
     <Typing/>
+ 
     <h3>
     🚀 A passionate Software Developer based in Faislabad, Pakistan.
     </h3>
     <h3>
+    ⚡ Exploring opportunities and side projects.
+    </h3>
+    <h3>
     💻
-My main stack currently is  <a
+My main tech stack currently is  <a
             href="https://www.coursera.org/articles/mern-stack"
             target="-blank"
           >

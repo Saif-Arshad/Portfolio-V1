@@ -14,7 +14,7 @@ export default function Introduction() {
         <p>
           Hey there! I'm <a href="#">Saif Ur Rehman</a>, and I've been fascinated by computers
           since I was young.</p>
-          <p> Now, as a third-year BSc Computer Science student
+          <p> Now, I'm a third-year BSc Computer Science student
           at <a href="https://gcuf.edu.pk/" target="-blank">GC University</a>, Faisalabad, I'm diving deep into the world of
           technology. With a year of experience in web development, especially
           with the{" "}
