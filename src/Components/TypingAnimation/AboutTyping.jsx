@@ -5,20 +5,20 @@ export default function Typing() {
   return (
       <TypeAnimation
       sequence={[
-        'A MERN Stack Developer', // Types 'One'
-        2000, // Waits 1s
+        'A MERN Stack Developer', 
+        2000,
         'A Next Js Developer',
         2000, 
         'Open Source enthusiast',
         2000, 
         'A Member of the Jedi Order',
         2000,  
-        'A Mighty Avenger',
+        'An Avenger',
         2000, 
         // () => {
         // },
       ]}
-      wrapper="h2"
+      wrapper="h3"
       cursor={true}
       repeat={Infinity}
       style={{ display: 'inline-block' }}

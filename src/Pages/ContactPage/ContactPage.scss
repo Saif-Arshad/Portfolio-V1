@@ -1,5 +1,5 @@
 .ContactPage-Main{
-    margin-top: 100px;
+    margin-top: 80px;
     height: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -9,7 +9,7 @@
     width: 40%;
     // background: white;
     box-sizing: border-box;
-    padding: 30px 50px;
+    padding: 30px 50px 0 50px;
 }
 .contact-sidebar{
     display: flex;
@@ -24,7 +24,7 @@
     flex-direction: column;
     margin-left: 10px;
     h3{
-        color:#3ccf91 ;
+        // color:#3ccf91 ;
         font-size: 22px;
     }
     p{
@@ -33,7 +33,7 @@
     }
 }
 .icon-box-Contact{
-    background: #161515;
+    background: #000000;
  height: 63px;
  display: flex;
  justify-content: center;
@@ -58,16 +58,29 @@ iframe{
 }
 
 // Media Quries  
-// and (min-width: 827px)
-@media screen and (max-width:769px) {
+
+@media screen and (min-width: 340px)  and (max-width:769px) {
     .ContactPage-Main{
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .map{
         width: 90%;
     }
     .contact-info{
-        width: 100%;
+        width: 100% !important;
     }
 
+}
+@media screen and (max-width:339px) {
+    .ContactPage-Main{
+        flex-direction: column-reverse;
+    }
+    .map{
+        width: 90%;
+    }
+    .contact-info{
+        width: 100% !important;
+    padding: 30px 50px 0 15px !important;
+
+    }
 }

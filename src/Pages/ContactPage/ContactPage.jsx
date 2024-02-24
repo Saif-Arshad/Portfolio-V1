@@ -6,9 +6,7 @@ export default function ContactPage() {
   return (
     <>
     <div className='ContactPage-Main'>
-           <div className="map">
-    <Map/>
-</div>
+   
     <div className="contact-info">
         <div className="Addrss-Contact contact-sidebar">
         <div className="icon-box-Contact">
@@ -17,7 +15,7 @@ export default function ContactPage() {
         <div className="Address-Contant sub-sidebar-contact">
 
         <h3>Address</h3>
-        <p>103 JB Barnala Faislabad,Punjab, Pakistan </p>
+        <p>Chak #103 JB Barnala Faislabad,Punjab, Pakistan </p>
         </div>
         </div>
         <div className="Phone-Contact contact-sidebar">
@@ -27,7 +25,7 @@ export default function ContactPage() {
         <div className="Phone-Contant sub-sidebar-contact">
 
         <h3>Phone</h3>
-        <p>(+92)3267146133 </p>
+        <p>(+92) 3267146133 </p>
         </div>
         </div>
         <div className="Email-Contact contact-sidebar">
@@ -41,7 +39,9 @@ export default function ContactPage() {
         </div>
         </div>
 </div>
-     
+<div className="map">
+    <Map/>
+</div>
 
     </div>
     <KeepTouch/>

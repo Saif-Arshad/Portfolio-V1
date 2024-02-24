@@ -2,20 +2,32 @@ import React from "react";
 import InkMosaic from "../../assets/Images/Projects/Ink.jpg";
 import CGP from "../../assets/Images/Projects/CGPCalculator.jpg";
 import Dictionary from "../../assets/Images/Projects/Dictionary.jpg";
+import Portfolio from "../../assets/Images///Projects/Personal V1.jpg"
 const projectsData = [
-  {
-    id: 1,
-    title: "TheInkMosaic (Tattoo Agency)",
-    description: "Explore our tattoo studio website, crafted with GSAP animation library, boasting exceptional animations that captivate. Dive into creativity.",
-    imageUrl:`${InkMosaic}`
-    ,
 
-    Github:'https://github.com/saif-ur-Rehman-developer/TheInkMosaic-TattooWebsite',
-    livelink:'https://saif-ur-rehman-developer.github.io/TheInkMosaic-TattooWebsite/',
-    Built:'HTML,CSS,GSAP',
-  },
-  {
-    id: 2,
+  
+    {
+      id: 1,
+      title: "Dynamic Portfolio site",
+      description: "React-based dictionary app utilizing API to fetch and display information on the frontend interface efficiently.",
+      imageUrl:
+        `${Portfolio}`,
+        Github:'https://github.com/saif-ur-Rehman-developer/Wordplay',
+        livelink:'https://saif-wordplay.netlify.app/',
+        Built:'React Js',
+      },
+    {
+      id: 2,
+      title: "Wordplay Dictionary ",
+      description: "React-based dictionary app utilizing API to fetch and display information on the frontend interface efficiently.",
+      imageUrl:
+        `${Dictionary}`,
+        Github:'https://github.com/saif-ur-Rehman-developer/Wordplay',
+        livelink:'https://saif-wordplay.netlify.app/',
+        Built:'React Js',
+      },
+      {
+    id: 3,
     title: "CGP Calculator",
     description: "Instantly calculate your CGP using university grades with our convenient CGP generator app.",
     imageUrl:
@@ -25,15 +37,16 @@ const projectsData = [
       livelink:'https://saif-cgpcalculator.netlify.app/',
       Built:'Vite,React',
     },
-  {
-    id: 3,
-    title: "Wordplay Dictionary ",
-    description: "React-based dictionary app utilizing API to fetch and display information on the frontend interface efficiently.",
-    imageUrl:
-      `${Dictionary}`,
-      Github:'https://github.com/saif-ur-Rehman-developer/Wordplay',
-      livelink:'https://saif-wordplay.netlify.app/',
-      Built:'React Js',
+    {
+      id: 4,
+      title: "TheInkMosaic (Tattoo Agency)",
+      description: "Explore our tattoo studio website, crafted with GSAP animation library, boasting exceptional animations that captivate. Dive into creativity.",
+      imageUrl:`${InkMosaic}`
+      ,
+  
+      Github:'https://github.com/saif-ur-Rehman-developer/TheInkMosaic-TattooWebsite',
+      livelink:'https://saif-ur-rehman-developer.github.io/TheInkMosaic-TattooWebsite/',
+      Built:'HTML,CSS,GSAP',
     },
 ];
 
