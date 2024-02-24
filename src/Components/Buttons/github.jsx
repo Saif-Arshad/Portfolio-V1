@@ -2,6 +2,7 @@ import React from "react";
 import "../Buttons/github.scss";
 export default function github() {
   return (
+    <a href="https://github.com/saif-ur-Rehman-developer" target="_blank">
     <button class="Btn">
      
         <svg
@@ -17,5 +18,6 @@ export default function github() {
         Github
       </span>
     </button>
+    </a>
   );
 }

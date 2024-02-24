@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import '../Header/Header.scss';
+import {Link} from "react-router-dom";
 
 function Header() {
   const [didScroll, setDidScroll] = useState(false);
@@ -79,13 +80,13 @@ function Header() {
         <div className="headercontainer">
           <nav id="navigation">
             <div className="Logocontainer">
-              <a href="#" className="logo" onClick={handleLogoClick}>
+              <Link to='/' className="logo" onClick={handleLogoClick}>
                 <div className="stack" style={{ "--stacks": 3 }}>
                   <span style={{ "--index": 0 }}>&lt;Saif Ur Rehman /&gt;</span>
                   <span style={{ "--index": 1 }}>&lt;Saif Ur Rehman /&gt;</span>
                   <span style={{ "--index": 2 }}>&lt;Saif Ur Rehman /&gt;</span>
                 </div>
-              </a>
+              </Link>
             </div>
 
             <a aria-label="mobile menu" className="nav-toggle" onClick={handleNavToggleClick}>
@@ -95,24 +96,24 @@ function Header() {
             </a>
             <ul className="menu-left">
               <li>
-                <a href="#Home" onClick={handleMenuItemClick}>
+                <Link to="/" onClick={handleMenuItemClick}>
                   Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#about" onClick={handleMenuItemClick}>
+              <Link to="/about" onClick={handleMenuItemClick}>
                   About
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#exp" onClick={handleMenuItemClick}>
+              <Link to="/project" onClick={handleMenuItemClick}>
                   Projects
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#contact" onClick={handleMenuItemClick}>
+              <Link to="/contact" onClick={handleMenuItemClick}>
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
           </nav>

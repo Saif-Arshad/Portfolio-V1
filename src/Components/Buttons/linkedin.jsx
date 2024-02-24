@@ -1,6 +1,7 @@
 import React from 'react'
 export default function linkedin() {
   return (
+    <a href="https://www.linkedin.com/in/saifurrehmanpro/" target='_black'>
      <button class="Btn">
     
    
@@ -18,5 +19,6 @@ export default function linkedin() {
       <span class="text">
       Linkedin</span>
    </button>
+   </a>
   )
 }

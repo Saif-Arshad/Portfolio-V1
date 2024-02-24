@@ -6,16 +6,15 @@ import Portfolio from "../../assets/Images///Projects/Personal V1.jpg"
 const projectsData = [
 
   
-    {
-      id: 1,
-      title: "Dynamic Portfolio site",
-      description: "React-based dictionary app utilizing API to fetch and display information on the frontend interface efficiently.",
-      imageUrl:
-        `${Portfolio}`,
-        Github:'https://github.com/saif-ur-Rehman-developer/Wordplay',
-        livelink:'https://saif-wordplay.netlify.app/',
-        Built:'React Js',
-      },
+  {
+    id: 1,
+    title: "Portfolio Website V1",
+    description: "My dynamic portfolio website v1, crafted with React.js and SCSS. Explore my projects showcasing creativity and technical prowess. Each element, from design to responsiveness, reflects my dedication to excellence in web development and design.",
+    imageUrl:`${Portfolio}`,
+    Github:'https://github.com/saif-ur-Rehman-developer/Portfolio-V1',
+    livelink:'https://saifwebdev.netlify.app/',
+    Built:'Vite,React,Scss',
+  },
     {
       id: 2,
       title: "Wordplay Dictionary ",

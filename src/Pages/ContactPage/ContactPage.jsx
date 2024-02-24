@@ -2,9 +2,12 @@ import React from 'react'
 import './ContactPage.scss'
 import Map from '../../Components/Map/Map'
 import KeepTouch from '../HomePage/Herosubpage/KeepTouch'
+import Header from '../../Components/Header/Header'
+import Footer from '../../Components/Footer/Footer'
 export default function ContactPage() {
   return (
     <>
+    <Header/>
     <div className='ContactPage-Main'>
    
     <div className="contact-info">
@@ -45,6 +48,7 @@ export default function ContactPage() {
 
     </div>
     <KeepTouch/>
+    <Footer/>
     </>
   )
 }

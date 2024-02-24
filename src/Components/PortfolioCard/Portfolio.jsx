@@ -8,10 +8,10 @@ const projectsData2 = [
   {
     id: 1,
     title: "Portfolio Website V1",
-    description: "Explore our tattoo studio website, crafted with GSAP animation library, boasting exceptional animations that captivate. Dive into creativity.",
+    description: "My dynamic portfolio website v1, crafted with React.js and SCSS. Explore my projects showcasing creativity and technical prowess. Each element, from design to responsiveness, reflects my dedication to excellence in web development and design.",
     imageUrl:`${Portfolio}`,
-    Github:'https://github.com/saif-ur-Rehman-developer/TheInkMosaic-TattooWebsite',
-    livelink:'https://saif-ur-rehman-developer.github.io/TheInkMosaic-TattooWebsite/',
+    Github:'https://github.com/saif-ur-Rehman-developer/Portfolio-V1',
+    livelink:'https://saifwebdev.netlify.app/',
     Built:'Vite,React,Scss',
   },
 
