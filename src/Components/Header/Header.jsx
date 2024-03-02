@@ -110,11 +110,11 @@ function Header() {
                   Projects
                 </Link>
               </li>
-              <li>
+              {/* <li>
               <Link to="/contact" onClick={handleMenuItemClick}>
                   Contact
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </nav>
         </div>

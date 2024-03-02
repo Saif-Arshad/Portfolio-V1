@@ -7,7 +7,7 @@ import {
 import './App.scss'
 import PortfolioMain from "./Pages/Portfoliopage/PortfolioMain.jsx"
 import Hero from './Pages/HomePage/Hero.jsx'
-import ContactPage from "./Pages/ContactPage/ContactPage.jsx"
+// import ContactPage from "./Pages/ContactPage/ContactPage.jsx"
 import AboutPage from "./Pages/AboutPage/AboutPage.jsx"
 function App() {
 
@@ -24,11 +24,6 @@ function App() {
                             exact
                             path="/about"
                             element={<AboutPage/>}
-                        ></Route>
-                        <Route
-                            exact
-                            path="/contact"
-                            element={<ContactPage />}
                         ></Route>
                         <Route
                             exact

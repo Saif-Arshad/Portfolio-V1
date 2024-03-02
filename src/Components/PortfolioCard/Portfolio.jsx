@@ -3,6 +3,7 @@ import Portfolio from '../../assets/Images/Projects/Personal V1.jpg'
 import InkMosaic from "../../assets/Images/Projects/Ink.jpg";
 import CGP from "../../assets/Images/Projects/CGPCalculator.jpg";
 import Dictionary from "../../assets/Images/Projects/Dictionary.jpg";
+import LibertFilm from "../../assets/Images/Projects/LibertyFilms.jpg"
 
 const projectsData2 = [
   {
@@ -43,6 +44,15 @@ const projectsData2 = [
     livelink:'https://saif-ur-rehman-developer.github.io/TheInkMosaic-TattooWebsite/',
     Built:'HTML,CSS,GSAP',
   },
+  {
+    id: 5,
+    title: "Liberty Films",
+    description: "Liberty Film is a film studio based in berlin and this is his site using React js",
+    imageUrl:`${LibertFilm}`,
+    Github:'https://github.com/saif-ur-Rehman-developer/Liberty-films',
+    livelink:'https://libertyfilm.netlify.app/',
+    Built:'Vite,React js',
+  }
 ];
 
 const PortfolioCard2 = ({ project }) => {
