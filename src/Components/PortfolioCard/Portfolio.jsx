@@ -4,6 +4,9 @@ import InkMosaic from "../../assets/Images/Projects/Ink.jpg";
 import CGP from "../../assets/Images/Projects/CGPCalculator.jpg";
 import Dictionary from "../../assets/Images/Projects/Dictionary.jpg";
 import LibertFilm from "../../assets/Images/Projects/LibertyFilms.jpg"
+import CSplus from "../../assets/Images/Projects/csplus.jpg"
+import mountain from "../../assets/Images/Projects/mountain.jpg"
+import power from "../../assets/Images/Projects/Power Fitness.jpg"
 
 const projectsData2 = [
   {
@@ -11,7 +14,7 @@ const projectsData2 = [
     title: "Portfolio Website V1",
     description: "My dynamic portfolio website v1, crafted with React.js and SCSS. Explore my projects showcasing creativity and technical prowess. Each element, from design to responsiveness, reflects my dedication to excellence in web development and design.",
     imageUrl:`${Portfolio}`,
-    Github:'https://github.com/saif-ur-Rehman-developer/Portfolio-V1',
+    Github:'https://github.com/Saif-Arshad/Portfolio-V1',
     livelink:'https://saifwebdev.netlify.app/',
     Built:'Vite,React,Scss',
   },
@@ -21,7 +24,7 @@ const projectsData2 = [
     title: "Wordplay Dictionary",
     description: "React-based dictionary app utilizing API to fetch and display information on the frontend interface efficiently.",
     imageUrl: `${Dictionary}`,
-    Github:'https://github.com/saif-ur-Rehman-developer/Wordplay',
+    Github:'https://github.com/Saif-Arshad/Wordplay',
     livelink:'https://saif-wordplay.netlify.app/',
     Built:'React Js',
   },
@@ -30,7 +33,7 @@ const projectsData2 = [
     title: "CGP Calculator",
     description: "Instantly calculate your CGP using university grades with our convenient CGP generator app.",
     imageUrl: `${CGP}`,
-    Github:'https://github.com/saif-ur-Rehman-developer/CGP-Calculator',
+    Github:'https://github.com/Saif-Arshad/CGP-Calculator',
     livelink:'https://saif-cgpcalculator.netlify.app/',
     Built:'Vite,React',
   },
@@ -40,16 +43,43 @@ const projectsData2 = [
     title: "TheInkMosaic (Tattoo Agency)",
     description: "Explore our tattoo studio website, crafted with GSAP animation library, boasting exceptional animations that captivate. Dive into creativity.",
     imageUrl:`${InkMosaic}`,
-    Github:'https://github.com/saif-ur-Rehman-developer/TheInkMosaic-TattooWebsite',
-    livelink:'https://saif-ur-rehman-developer.github.io/TheInkMosaic-TattooWebsite/',
+    Github:'https://github.com/Saif-Arshad/TheInkMosaic-TattooWebsite',
+    livelink:'https://saif-arshad.github.io/TheInkMosaic-TattooWebsite/',
     Built:'HTML,CSS,GSAP',
   },
   {
     id: 5,
+    title: "Power Fitness",
+    description: "Power fitness is a gym that allows people to choose different types of fitness for their body",
+    imageUrl:`${power}`,
+    Github:'https://github.com/Saif-Arshad/Power-Fitness',
+    livelink:'https://power-boxing.netlify.app/',
+    Built:'Vite,React js',
+  },
+  {
+    id: 6,
+    title: "CS Plus",
+    description: "Cs plus is a company site who sale corporate software to companies",
+    imageUrl:`${CSplus}`,
+    Github:'https://github.com/Saif-Arshad/CS-Plus',
+    livelink:'https://csplus.netlify.app/',
+    Built:'Vite,React js',
+  },
+  {
+    id: 7,
+    title: "Mountain Hiking ",
+    description: "Mountain Hiking is a company that provides tours around the world for people",
+    imageUrl:`${mountain}`,
+    Github:'https://github.com/Saif-Arshad/Mountain-Hiking',
+    livelink:'https://mountain-climing.vercel.app/',
+    Built:'Vite,React TypeScript',
+  },
+  {
+    id: 10,
     title: "Liberty Films",
     description: "Liberty Film is a film studio based in berlin and this is his site using React js",
     imageUrl:`${LibertFilm}`,
-    Github:'https://github.com/saif-ur-Rehman-developer/Liberty-films',
+    Github:'https://github.com/Saif-Arshad/Liberty-films',
     livelink:'https://libertyfilm.netlify.app/',
     Built:'Vite,React js',
   }

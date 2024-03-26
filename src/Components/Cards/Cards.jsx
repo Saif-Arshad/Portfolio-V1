@@ -11,7 +11,7 @@ const projectsData = [
     title: "Portfolio Website V1",
     description: "My dynamic portfolio website v1, crafted with React.js and SCSS. Explore my projects showcasing creativity and technical prowess. Each element, from design to responsiveness, reflects my dedication to excellence in web development and design.",
     imageUrl:`${Portfolio}`,
-    Github:'https://github.com/saif-ur-Rehman-developer/Portfolio-V1',
+    Github:'https://github.com/Saif-Arshad/Portfolio-V1',
     livelink:'https://saifwebdev.netlify.app/',
     Built:'Vite,React,Scss',
   },
@@ -21,7 +21,7 @@ const projectsData = [
       description: "React-based dictionary app utilizing API to fetch and display information on the frontend interface efficiently.",
       imageUrl:
         `${Dictionary}`,
-        Github:'https://github.com/saif-ur-Rehman-developer/Wordplay',
+        Github:'https://github.com/Saif-Arshad/Wordplay',
         livelink:'https://saif-wordplay.netlify.app/',
         Built:'React Js',
       },
@@ -32,7 +32,7 @@ const projectsData = [
     imageUrl:
       `${CGP}`
       ,
-      Github:'https://github.com/saif-ur-Rehman-developer/CGP-Calculator',
+      Github:'https://github.com/Saif-Arshad/CGP-Calculator',
       livelink:'https://saif-cgpcalculator.netlify.app/',
       Built:'Vite,React',
     },
@@ -43,8 +43,8 @@ const projectsData = [
       imageUrl:`${InkMosaic}`
       ,
   
-      Github:'https://github.com/saif-ur-Rehman-developer/TheInkMosaic-TattooWebsite',
-      livelink:'https://saif-ur-rehman-developer.github.io/TheInkMosaic-TattooWebsite/',
+      Github:'https://github.com/Saif-Arshad/TheInkMosaic-TattooWebsite',
+      livelink:'https://saif-arshad.github.io/TheInkMosaic-TattooWebsite/',
       Built:'HTML,CSS,GSAP',
     },
 ];
