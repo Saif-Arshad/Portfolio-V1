@@ -7,7 +7,7 @@ import LibertFilm from "../../assets/Images/Projects/LibertyFilms.jpg"
 import CSplus from "../../assets/Images/Projects/csplus.jpg"
 import mountain from "../../assets/Images/Projects/mountain.jpg"
 import power from "../../assets/Images/Projects/Power Fitness.jpg"
-import currency from "../../assets/Images/Projects/currency.jpg"""
+import currency from "../../assets/Images/Projects/currency.jpg"
 
 const projectsData2 = [
   {
