@@ -7,6 +7,7 @@ import LibertFilm from "../../assets/Images/Projects/LibertyFilms.jpg"
 import CSplus from "../../assets/Images/Projects/csplus.jpg"
 import mountain from "../../assets/Images/Projects/mountain.jpg"
 import power from "../../assets/Images/Projects/Power Fitness.jpg"
+import currency from "../../assets/Images/Projects/currency.jpg"""
 
 const projectsData2 = [
   {
@@ -73,6 +74,15 @@ const projectsData2 = [
     Github:'https://github.com/Saif-Arshad/Mountain-Hiking',
     livelink:'https://mountain-climing.vercel.app/',
     Built:'Vite,React TypeScript',
+  },
+  {
+    id: 8,
+    title: "CurrencyXchange ",
+    description: "currencyXchange is a website which provides currency exchange information",
+    imageUrl:`${currency}`,
+    Github:'https://github.com/Saif-Arshad/Currency-Exchange',
+    livelink:'https://raterover.netlify.app/',
+    Built:'Vite,React JavaScript',
   },
   {
     id: 10,
