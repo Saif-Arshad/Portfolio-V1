@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from "react";
 import Portfolio from '../../assets/Images/Projects/Personal V1.jpg'
 import InkMosaic from "../../assets/Images/Projects/Ink.jpg";
@@ -8,6 +9,7 @@ import CSplus from "../../assets/Images/Projects/csplus.jpg"
 import mountain from "../../assets/Images/Projects/mountain.jpg"
 import power from "../../assets/Images/Projects/Power Fitness.jpg"
 import currency from "../../assets/Images/Projects/currency.jpg"
+import Light from "../../assets/Images/Projects/Lightspeed.jpg"
 
 const projectsData2 = [
   {
@@ -73,10 +75,19 @@ const projectsData2 = [
     imageUrl:`${mountain}`,
     Github:'https://github.com/Saif-Arshad/Mountain-Hiking',
     livelink:'https://mountain-climing.vercel.app/',
-    Built:'Vite,React TypeScript',
+    Built:'NextJs TypeScript',
   },
   {
     id: 8,
+    title: "Light Speed ",
+    description: "Light Speed is a website for internet provider company that provide internet from space",
+    imageUrl:`${Light}`,
+    Github:'https://github.com/Saif-Arshad/light-speed/',
+    livelink:'https://light-speed-omega.vercel.app/',
+    Built:'Next js,Tailwind Css JavaScript',
+  },
+  {
+    id: 9,
     title: "CurrencyXchange ",
     description: "currencyXchange is a website which provides currency exchange information",
     imageUrl:`${currency}`,

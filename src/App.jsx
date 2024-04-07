@@ -2,7 +2,6 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
-  Link,
 } from "react-router-dom";
 import './App.scss'
 import PortfolioMain from "./Pages/Portfoliopage/PortfolioMain.jsx"
@@ -30,12 +29,16 @@ function App() {
                             path="/project"
                             element={<PortfolioMain/>}
                         ></Route>
+                        <Route
+                            exact
+                            path="/contact"
+                            element={<ContactPage/>}
+                        ></Route>
                     </Routes>
                     </Router>
     {/* <Hero/> */}
     {/* <AboutPage/> */}
     {/* <PortfolioMain/> */}
-    {/* <ContactPage/> */}
     </>
   )
 }
