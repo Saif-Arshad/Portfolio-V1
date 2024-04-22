@@ -3,7 +3,7 @@ import React from 'react'
 import './FirstAbout.scss'
 import '../SubAbout/QueryFirst.scss'
 import Typing from "../../../Components/TypingAnimation/TypingName"
-import Resume from "../../../assets/Resume/Saif-Ur-Rehman.pdf"
+import Resume from "../../../assets/Resume/SaifUrRehmanResume.pdf"
 export default function FirstAbout() {
   return (
     <div className='AboutPage-Main'>

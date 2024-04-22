@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from 'react'
 import {Link} from "react-router-dom";
 import  '../Herosubpage/projecthomesub.scss'
@@ -7,7 +8,7 @@ export default function Projecthomesub() {
   return (
     <div className='projectsub'>
         <h2>💻All Creative Works.</h2>
-        <p>Here's some of my projects that I have worked on.</p>
+        <p>Here&apos;s some of my projects that I have worked on.</p>
 <Link to='/project'>Explore more →</Link>
 <Card/>
 

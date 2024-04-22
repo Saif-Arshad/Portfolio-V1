@@ -14,7 +14,7 @@ export default function PortfolioMain() {
     <Header/>
     <div className='Mainportfoliopage'>
         <h1>🚀Some Things I’ve Built.</h1>
-        <p>I love building projects and practice my engineering skills, here's an archive of things that I've worked on.</p>
+        <p>I love building projects and practice my engineering skills, here&apos;s an archive of things that I&apos;ve worked on.</p>
       <PortfolioCard/>
     </div>
     <Footer/>

@@ -1,52 +1,54 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable react/no-unknown-property */
+/* eslint-disable react/jsx-no-target-blank */
+/* eslint-disable react/prop-types */
+// eslint-disable-next-line no-unused-vars
 import React from "react";
-import InkMosaic from "../../assets/Images/Projects/Ink.jpg";
-import CGP from "../../assets/Images/Projects/CGPCalculator.jpg";
-import Dictionary from "../../assets/Images/Projects/Dictionary.jpg";
+import OmniBlog from '../../assets/Images/Projects/OmniBlog.jpg'
+import Careersync from '../../assets/Images/Projects/Careersync.jpg'
+import ThinkPad from '../../assets/Images/Projects/ThinkPad.jpg'
 import Portfolio from "../../assets/Images///Projects/Personal V1.jpg"
 const projectsData = [
 
   
   {
     id: 1,
+    title: "OnmiBlog",
+    description: "OmniBlog is a platform that provides informative articles and blog posts about various aspects of life and has an admin dashboard where the admin can create, update, and delete blogs..",
+    imageUrl:`${OmniBlog}`,
+    Github:'https://github.com/Saif-Arshad/Full-stack-OmniBlog',
+    livelink:'https://omniiblog.vercel.app//',
+    Built:'Next Js,Tailwind Css,MongoDB Atlas,JWT Authentication,Scss,uploadthing,next-themes',
+  },
+  {
+    id: 2,
+    title: "CareerSync",
+    description: "CareerSync is a dynamic job platform with NextAuth authentication, empowering users to create accounts, search for jobs in their field using various filters, and seamlessly apply for positions.",
+    imageUrl:`${Careersync}`,
+    Github:'https://github.com/Saif-Arshad/careerSync',
+    livelink:'https://careersyncpro.vercel.app/',
+    Built:'Next Js,Tailwind Css,MongoDB Atlas,NextAuth Authentication,css',
+  },
+  {
+    id:3,
+    title: "ThinkPad",
+    description: "ThinkPad is a web app to manage notes using Nodejs, and Mongodb as database, plus authentication with passport js",
+    imageUrl:`${ThinkPad}`,
+    Github:'https://github.com/Saif-Arshad/Full-stack-Thinkpad',
+    livelink:'',
+    Built:'Ejs, PassportJs Authentication,CSS, MongoBD',
+  },
+  {
+    id:4,
     title: "Portfolio Website V1",
-    description: "My dynamic portfolio website v1, crafted with React.js and SCSS. Explore my projects showcasing creativity and technical prowess. Each element, from design to responsiveness, reflects my dedication to excellence in web development and design.",
+    description: "My dynamic portfolio website v1. Explore my projects technical prowess. Each element, from design to responsiveness, reflects my dedication to excellence in web development",
     imageUrl:`${Portfolio}`,
     Github:'https://github.com/Saif-Arshad/Portfolio-V1',
     livelink:'https://saifwebdev.netlify.app/',
     Built:'Vite,React,Scss',
-  },
-    {
-      id: 2,
-      title: "Wordplay Dictionary ",
-      description: "React-based dictionary app utilizing API to fetch and display information on the frontend interface efficiently.",
-      imageUrl:
-        `${Dictionary}`,
-        Github:'https://github.com/Saif-Arshad/Wordplay',
-        livelink:'https://saif-wordplay.netlify.app/',
-        Built:'React Js',
-      },
-      {
-    id: 3,
-    title: "CGP Calculator",
-    description: "Instantly calculate your CGP using university grades with our convenient CGP generator app.",
-    imageUrl:
-      `${CGP}`
-      ,
-      Github:'https://github.com/Saif-Arshad/CGP-Calculator',
-      livelink:'https://saif-cgpcalculator.netlify.app/',
-      Built:'Vite,React',
-    },
-    {
-      id: 4,
-      title: "TheInkMosaic (Tattoo Agency)",
-      description: "Explore our tattoo studio website, crafted with GSAP animation library, boasting exceptional animations that captivate. Dive into creativity.",
-      imageUrl:`${InkMosaic}`
-      ,
-  
-      Github:'https://github.com/Saif-Arshad/TheInkMosaic-TattooWebsite',
-      livelink:'https://saif-arshad.github.io/TheInkMosaic-TattooWebsite/',
-      Built:'HTML,CSS,GSAP',
-    },
+  }
+
+   
 ];
 
 const PortfolioCard = ({ project }) => {
@@ -59,6 +61,7 @@ const PortfolioCard = ({ project }) => {
       </a>
       <h3>{title}</h3>
       <div className="links">
+        { livelink.length>1 ?
         <a href={livelink} target="_blank"
         >
         <svg
@@ -75,6 +78,26 @@ const PortfolioCard = ({ project }) => {
           <path d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z"></path>
         </svg>
         </a>
+        :
+        <a onClick={()=>alert(`Not Hosted Yet But you can see the video of ${title} website working in Github Readme File`)} target="_blank"
+        >
+        <svg
+        className="firstsvg"
+          stroke="currentColor"
+          fill="currentColor"
+          stroke-width="0"
+          viewBox="0 0 512 512"
+          aria-label="project link"
+          height="25"
+          width="25"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z"></path>
+        </svg>
+        </a>
+
+        
+        }
         <a href={Github} target="_blank">
         <svg
           stroke="currentColor"

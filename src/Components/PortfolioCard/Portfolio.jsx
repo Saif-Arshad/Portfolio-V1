@@ -1,8 +1,11 @@
+/* eslint-disable react/jsx-no-target-blank */
+/* eslint-disable react/prop-types */
 /* eslint-disable no-unused-vars */
 import React from "react";
 import Portfolio from '../../assets/Images/Projects/Personal V1.jpg'
 import InkMosaic from "../../assets/Images/Projects/Ink.jpg";
 import CGP from "../../assets/Images/Projects/CGPCalculator.jpg";
+import ThinkPad from "../../assets/Images/Projects/ThinkPad.jpg";
 import Dictionary from "../../assets/Images/Projects/Dictionary.jpg";
 import LibertFilm from "../../assets/Images/Projects/LibertyFilms.jpg"
 import CSplus from "../../assets/Images/Projects/csplus.jpg"
@@ -10,10 +13,39 @@ import mountain from "../../assets/Images/Projects/mountain.jpg"
 import power from "../../assets/Images/Projects/Power Fitness.jpg"
 import currency from "../../assets/Images/Projects/currency.jpg"
 import Light from "../../assets/Images/Projects/Lightspeed.jpg"
+import OmniBlog from '../../assets/Images/Projects/OmniBlog.jpg'
+import Careersync from '../../assets/Images/Projects/Careersync.jpg'
 
 const projectsData2 = [
   {
     id: 1,
+    title: "OnmiBlog",
+    description: "OmniBlog is a platform that provides informative articles and blog posts about various aspects of life and has an admin dashboard where the admin can create, update, and delete blogs..",
+    imageUrl:`${OmniBlog}`,
+    Github:'https://github.com/Saif-Arshad/Full-stack-OmniBlog',
+    livelink:'https://omniiblog.vercel.app//',
+    Built:'Next Js,Tailwind Css,MongoDB Atlas,JWT Authentication,Scss,uploadthing,next-themes',
+  },
+  {
+    id: 5,
+    title: "CareerSync",
+    description: "CareerSync is a dynamic job platform with NextAuth authentication, empowering users to create accounts, search for jobs in their field using various filters, and seamlessly apply for positions.",
+    imageUrl:`${Careersync}`,
+    Github:'https://github.com/Saif-Arshad/careerSync',
+    livelink:'https://careersyncpro.vercel.app/',
+    Built:'Next Js,Tailwind Css,MongoDB Atlas,NextAuth Authentication,css',
+  },
+  {
+    id:6,
+    title: "ThinkPad",
+    description: "ThinkPad is a web app to manage notes using Nodejs, and Mongodb as database, plus authentication with passport js",
+    imageUrl:`${ThinkPad}`,
+    Github:'https://github.com/Saif-Arshad/Full-stack-Thinkpad',
+    livelink:'',
+    Built:'Ejs, PassportJs Authentication,CSS, MongoBD',
+  },
+  {
+    id: 7,
     title: "Portfolio Website V1",
     description: "My dynamic portfolio website v1, crafted with React.js and SCSS. Explore my projects showcasing creativity and technical prowess. Each element, from design to responsiveness, reflects my dedication to excellence in web development and design.",
     imageUrl:`${Portfolio}`,
@@ -23,7 +55,7 @@ const projectsData2 = [
   },
 
   {
-    id: 2,
+    id: 8,
     title: "Wordplay Dictionary",
     description: "React-based dictionary app utilizing API to fetch and display information on the frontend interface efficiently.",
     imageUrl: `${Dictionary}`,
@@ -32,7 +64,7 @@ const projectsData2 = [
     Built:'React Js',
   },
   {
-    id: 3,
+    id: 9,
     title: "CGP Calculator",
     description: "Instantly calculate your CGP using university grades with our convenient CGP generator app.",
     imageUrl: `${CGP}`,
@@ -42,7 +74,7 @@ const projectsData2 = [
   },
 
   {
-    id: 4,
+    id: 10,
     title: "TheInkMosaic (Tattoo Agency)",
     description: "Explore our tattoo studio website, crafted with GSAP animation library, boasting exceptional animations that captivate. Dive into creativity.",
     imageUrl:`${InkMosaic}`,
@@ -51,7 +83,7 @@ const projectsData2 = [
     Built:'HTML,CSS,GSAP',
   },
   {
-    id: 5,
+    id: 11,
     title: "Power Fitness",
     description: "Power fitness is a gym that allows people to choose different types of fitness for their body",
     imageUrl:`${power}`,
@@ -60,7 +92,7 @@ const projectsData2 = [
     Built:'Vite,React js',
   },
   {
-    id: 6,
+    id: 12,
     title: "CS Plus",
     description: "Cs plus is a company site who sale corporate software to companies",
     imageUrl:`${CSplus}`,
@@ -69,7 +101,7 @@ const projectsData2 = [
     Built:'Vite,React js',
   },
   {
-    id: 7,
+    id: 13,
     title: "Mountain Hiking ",
     description: "Mountain Hiking is a company that provides tours around the world for people",
     imageUrl:`${mountain}`,
@@ -78,7 +110,7 @@ const projectsData2 = [
     Built:'NextJs TypeScript',
   },
   {
-    id: 8,
+    id: 14,
     title: "Light Speed ",
     description: "Light Speed is a website for internet provider company that provide internet from space",
     imageUrl:`${Light}`,
@@ -87,7 +119,7 @@ const projectsData2 = [
     Built:'Next js,Tailwind Css JavaScript',
   },
   {
-    id: 9,
+    id: 15,
     title: "CurrencyXchange ",
     description: "currencyXchange is a website which provides currency exchange information",
     imageUrl:`${currency}`,
@@ -96,7 +128,7 @@ const projectsData2 = [
     Built:'Vite,React JavaScript',
   },
   {
-    id: 10,
+    id: 16,
     title: "Liberty Films",
     description: "Liberty Film is a film studio based in berlin and this is his site using React js",
     imageUrl:`${LibertFilm}`,
@@ -119,6 +151,7 @@ const PortfolioCard2 = ({ project }) => {
       <h3>{title}</h3>
       <p>{description}</p>
       <div className="links">
+        { livelink.length>1 ?
         <a href={livelink} target="_blank">
           <svg
             className="firstsvg"
@@ -134,6 +167,8 @@ const PortfolioCard2 = ({ project }) => {
             <path d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z"></path>
           </svg>
         </a>
+        :""
+}
         <a href={Github} target="_blank">
           <svg
             stroke="currentColor"

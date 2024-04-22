@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from "react";
 import "../Herosubpage/introduction.scss";
 import "../Herosubpage/queryintroduction.scss";
@@ -12,10 +13,10 @@ export default function Introduction() {
       <div className="AboutsubfromMain" id="subabout2">
         <h2 className="about"> ⚡ About Me</h2>
         <p>
-          Hey there! I'm <a href="#">Saif Ur Rehman</a>, and I've been fascinated by computers
+          Hey there! I&apos;m <a href="#">Saif Ur Rehman</a>, and I&apos;ve been fascinated by computers
           since I was young.</p>
-          <p> Now, I'm a third-year BSc Computer Science student
-          at <a href="https://gcuf.edu.pk/" target="-blank">GC University</a>, Faisalabad, I'm diving deep into the world of
+          <p> Now, I&apos;m a third-year BSc Computer Science student
+          at <a href="https://gcuf.edu.pk/" target="-blank">GC University</a>, Faisalabad, I&apos;m diving deep into the world of
           technology. With a year of experience in web development, especially
           with the{" "}
           <a
@@ -24,11 +25,11 @@ export default function Introduction() {
           >
             MERN stack
           </a>
-          , I'm passionate about crafting impactful digital solutions. My drive
+          , I&apos;m passionate about crafting impactful digital solutions. My drive
           pushes me to make meaningful contributions to the field, constantly
-          refining my skills along the way.</p> <p>When i am not   coding, you'll find me gaming
+          refining my skills along the way.</p> <p>When i am not   coding, you&apos;ll find me gaming
           with friends, binge-watching a <a href="https://www.netflix.com/pk/" target="-blank">Netflix</a>  shows, or shooting hoops on the
-          basketball🏀 court when the weather's nice. Let's join forces to shape a
+          basketball🏀 court when the weather&apos;s nice. Let&apos;s join forces to shape a
           brighter future in technology together! 🚀
         </p>
         <CVdownload/>
