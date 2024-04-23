@@ -59,7 +59,7 @@
     .portfolio-card h3 {
         font-size: 17px;}
      .projectsub h2 {
-            font-size: 15px;
+            font-size: 17px;
         }
 
     .projectsub p{
@@ -75,5 +75,10 @@
 @media screen and (max-width:380px) {
     .portfolio-card .firstsvg {
         margin-left: 97px;
+    }
+}
+@media screen and (max-width:400px) {
+    .portfolio-card h2 span{
+        font-size: 15px !important;
     }
 }
