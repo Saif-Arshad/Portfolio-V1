@@ -15,6 +15,7 @@ import currency from "../../assets/Images/Projects/currency.jpg"
 import Light from "../../assets/Images/Projects/Lightspeed.jpg"
 import OmniBlog from '../../assets/Images/Projects/OmniBlog.jpg'
 import Careersync from '../../assets/Images/Projects/Careersync.jpg'
+import north from '../../assets/Images/Projects/northstar.jpg'
 
 const projectsData2 = [
   {
@@ -43,6 +44,15 @@ const projectsData2 = [
     Github:'https://github.com/Saif-Arshad/Full-stack-Thinkpad',
     livelink:'',
     Built:'Ejs, PassportJs Authentication,CSS, MongoBD',
+  },
+  {
+    id: 2,
+    title: "NorthStar Ecommerce Site",
+    description: "NorthStar is an Ecommerce site powered by Next.js & Redux Toolkit for smooth shopping experience, seamless navigation, and enhanced functionality",
+    imageUrl:`${north}`,
+    Github:'https://github.com/Saif-Arshad/northstar-ecommerce',
+    livelink:'https://northstarpro.vercel.app/',
+    Built:'Next js , Redux ToolKit ',
   },
   {
     id: 7,
@@ -143,9 +153,16 @@ const PortfolioCard2 = ({ project }) => {
 
   return (
     <div className="portfolio-card-main">
+      {
+livelink ?
+
       <a href={livelink} target="_blank">
         <img src={imageUrl} alt={title} />
       </a>
+:
+<img src={imageUrl} alt={title} />
+
+}
       <div className="text-portfolio-main">
       <h4>Featured Project</h4>
       <h3>{title}</h3>

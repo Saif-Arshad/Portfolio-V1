@@ -7,7 +7,7 @@ import React from "react";
 import OmniBlog from '../../assets/Images/Projects/OmniBlog.jpg'
 import Careersync from '../../assets/Images/Projects/Careersync.jpg'
 import ThinkPad from '../../assets/Images/Projects/ThinkPad.jpg'
-import Portfolio from "../../assets/Images///Projects/Personal V1.jpg"
+import North from "../../assets/Images/Projects/northstar.jpg"
 const projectsData = [
 
   
@@ -40,12 +40,12 @@ const projectsData = [
   },
   {
     id:4,
-    title: "Portfolio Website V1",
-    description: "My dynamic portfolio website v1. Explore my projects technical prowess. Each element, from design to responsiveness, reflects my dedication to excellence in web development",
-    imageUrl:`${Portfolio}`,
-    Github:'https://github.com/Saif-Arshad/Portfolio-V1',
-    livelink:'https://saifwebdev.netlify.app/',
-    Built:'Vite,React,Scss',
+    title: "Noth Star",
+    description: "NorthStar is an Ecommerce site powered by Next.js & Redux Toolkit for smooth shopping experience, seamless navigation, and enhanced functionality",
+    imageUrl:`${North}`,
+    Github:'https://github.com/Saif-Arshad/northstar-ecommerce',
+    livelink:'https://northstarpro.vercel.app/',
+    Built:'Next js , Redux ToolKit ',
   }
 
    
@@ -56,10 +56,14 @@ const PortfolioCard = ({ project }) => {
 
   return (
     <div className="portfolio-card">
+    { livelink ? 
       <a href={livelink} target="_blank">
         <img src={imageUrl} alt={title} />
       </a>
-      <h3>{title}</h3>
+      :
+      <img src={imageUrl} alt={title} />
+}
+     <h3>{title}</h3>
       <div className="links">
         { livelink.length>1 ?
         <a href={livelink} target="_blank"
