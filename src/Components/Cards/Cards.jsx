@@ -18,7 +18,7 @@ const projectsData = [
     imageUrl:`${OmniBlog}`,
     Github:'https://github.com/Saif-Arshad/Full-stack-OmniBlog',
     livelink:'https://omniiblog.vercel.app//',
-    Built:'Next Js,Tailwind Css,MongoDB Atlas,JWT Authentication,Scss,uploadthing,next-themes',
+    Built:'Next Js,Tailwind Css, MongoDB Atlas,JWT Authentication,Scss,uploadthing,next-themes',
   },
   {
     id: 2,
@@ -36,7 +36,7 @@ const projectsData = [
     imageUrl:`${ThinkPad}`,
     Github:'https://github.com/Saif-Arshad/Full-stack-Thinkpad',
     livelink:'',
-    Built:'Ejs, PassportJs Authentication,CSS, MongoBD',
+    Built:'Ejs, PassportJs Authentication,CSS, MongoDB,
   },
   {
     id:4,
