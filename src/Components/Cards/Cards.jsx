@@ -30,15 +30,7 @@ const projectsData = [
     Built:'Next Js,Tailwind Css,MongoDB Atlas,NextAuth Authentication,css',
   },
 
-  {
-    id:3,
-    title: "ThinkPad",
-    description: "ThinkPad is a web app to manage notes using Nodejs, and Mongodb as database, plus authentication with passport js",
-    imageUrl:`${ThinkPad}`,
-    Github:'https://github.com/Saif-Arshad/Full-stack-Thinkpad',
-    livelink:'',
-    Built:'Ejs, PassportJs Authentication,CSS, MongoBD',
-  },
+
   {
     id:4,
     title: "Noth Star",
