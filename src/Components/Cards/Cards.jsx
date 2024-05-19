@@ -18,7 +18,7 @@ const projectsData = [
     imageUrl:`${OmniBlog}`,
     Github:'https://github.com/Saif-Arshad/Full-stack-OmniBlog',
     livelink:'https://omniiblog.vercel.app//',
-    Built:'Next Js,Tailwind Css,MongoDB Atlas,JWT Authentication,Scss,uploadthing,next-themes',
+    Built:'Next Js,Tailwind Css, MongoDB Atlas,JWT Authentication,Scss,uploadthing,next-themes',
   },
   {
     id: 2,
@@ -32,6 +32,15 @@ const projectsData = [
 
   {
     id:3,
+    title: "ThinkPad",
+    description: "ThinkPad is a web app to manage notes using Nodejs, and Mongodb as database, plus authentication with passport js",
+    imageUrl:`${ThinkPad}`,
+    Github:'https://github.com/Saif-Arshad/Full-stack-Thinkpad',
+    livelink:'',
+    Built:'Ejs, PassportJs Authentication,CSS, MongoBD',
+  },
+  {
+    id:4,
     title: "Noth Star",
     description: "NorthStar is an Ecommerce site powered by Next.js & Redux Toolkit for smooth shopping experience, seamless navigation, and enhanced functionality",
     imageUrl:`${North}`,
