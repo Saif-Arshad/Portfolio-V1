@@ -12,6 +12,7 @@ import CSplus from "../../assets/Images/Projects/csplus.jpg"
 import mountain from "../../assets/Images/Projects/mountain.jpg"
 import power from "../../assets/Images/Projects/Power Fitness.jpg"
 import currency from "../../assets/Images/Projects/currency.jpg"
+import api from '../../assets/Images/Projects/jsonapi.jpg'
 import Light from "../../assets/Images/Projects/Lightspeed.jpg"
 import OmniBlog from '../../assets/Images/Projects/OmniBlog.jpg'
 import Careersync from '../../assets/Images/Projects/Careersync.jpg'
@@ -35,6 +36,15 @@ const projectsData2 = [
     Github:'https://github.com/Saif-Arshad/careerSync',
     livelink:'https://careersyncpro.vercel.app/',
     Built:'Next Js,Tailwind Css,MongoDB Atlas,NextAuth Authentication,css',
+  },
+  {
+    id:4,
+    title: "JSON Blog API",
+    description: "The JSON Blog API is a freely accessible public REST API that provides dummy data for your projects or for practicing working with REST APIs. It is a valuable resource for educational purposes, sample codes, testing, and more.",
+    imageUrl:`${api}`,
+    Github:'https://github.com/Saif-Arshad/JsonBlogAPI',
+    livelink:'https://jsonblogapi.vercel.app/',
+    Built:'Next js, MongoDB , REST API   ',
   },
   {
     id:6,

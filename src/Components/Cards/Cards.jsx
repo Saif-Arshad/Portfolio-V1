@@ -6,7 +6,7 @@
 import React from "react";
 import OmniBlog from '../../assets/Images/Projects/OmniBlog.jpg'
 import Careersync from '../../assets/Images/Projects/Careersync.jpg'
-import ThinkPad from '../../assets/Images/Projects/ThinkPad.jpg'
+import api from '../../assets/Images/Projects/jsonapi.jpg'
 import North from "../../assets/Images/Projects/northstar.jpg"
 const projectsData = [
 
@@ -29,23 +29,24 @@ const projectsData = [
     livelink:'https://careersyncpro.vercel.app/',
     Built:'Next Js,Tailwind Css,MongoDB Atlas,NextAuth Authentication,css',
   },
+
   {
     id:3,
-    title: "ThinkPad",
-    description: "ThinkPad is a web app to manage notes using Nodejs, and Mongodb as database, plus authentication with passport js",
-    imageUrl:`${ThinkPad}`,
-    Github:'https://github.com/Saif-Arshad/Full-stack-Thinkpad',
-    livelink:'',
-    Built:'Ejs, PassportJs Authentication,CSS, MongoBD',
-  },
-  {
-    id:4,
     title: "Noth Star",
     description: "NorthStar is an Ecommerce site powered by Next.js & Redux Toolkit for smooth shopping experience, seamless navigation, and enhanced functionality",
     imageUrl:`${North}`,
     Github:'https://github.com/Saif-Arshad/northstar-ecommerce',
     livelink:'https://northstarpro.vercel.app/',
     Built:'Next js , Redux ToolKit ',
+  },
+  {
+    id:4,
+    title: "JSON Blog API",
+    description: "The JSON Blog API is a freely accessible public REST API that provides  data for your projects or for practicing working with REST APIs. It is a valuable resource for sample codes.",
+    imageUrl:`${api}`,
+    Github:'https://github.com/Saif-Arshad/JsonBlogAPI',
+    livelink:'https://jsonblogapi.vercel.app/',
+    Built:'Next js, MongoDB , REST API   ',
   }
 
    
