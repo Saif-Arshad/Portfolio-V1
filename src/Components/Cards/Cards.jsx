@@ -6,7 +6,7 @@
 import React from "react";
 import OmniBlog from '../../assets/Images/Projects/OmniBlog.jpg'
 import Careersync from '../../assets/Images/Projects/Careersync.jpg'
-import api from '../../assets/Images/Projects/jsonapi.jpg'
+import travelThrill from '../../assets/Images/Projects/traveltrills.jpg'
 import North from "../../assets/Images/Projects/northstar.jpg"
 const projectsData = [
 
@@ -29,7 +29,16 @@ const projectsData = [
     livelink:'https://careersyncpro.vercel.app/',
     Built:'Next Js,Tailwind Css,MongoDB Atlas,NextAuth Authentication,css',
   },
-
+  {
+    id:3,
+    title: "Travel Thrills",
+    description: "Travel Thrill is a comprehensive travel and tour website designed to enhance the way users plan their trips. Our platform features an AI-powered trip planner that helps users create personalized itineraries with ease.",
+    imageUrl:`${travelThrill}`,
+    Github:'https://github.com/Saif-Arshad/Travel-Thrills',
+    livelink:'https://travelthrills.vercel.app/',
+    Built:'Next js, Tailwind Css   ',
+  }
+,
 
   {
     id:4,
@@ -40,16 +49,7 @@ const projectsData = [
     livelink:'https://northstarpro.vercel.app/',
     Built:'Next js , Redux ToolKit ',
   },
-  {
-    id:4,
-    title: "JSON Blog API",
-    description: "The JSON Blog API is a freely accessible public REST API that provides  data for your projects or for practicing working with REST APIs. It is a valuable resource for sample codes.",
-    imageUrl:`${api}`,
-    Github:'https://github.com/Saif-Arshad/JsonBlogAPI',
-    livelink:'https://jsonblogapi.vercel.app/',
-    Built:'Next js, MongoDB , REST API   ',
-  }
-
+  
    
 ];
 

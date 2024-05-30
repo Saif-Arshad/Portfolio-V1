@@ -15,25 +15,21 @@ function App() {
      <Router>
          <Routes>
                         <Route
-                            exact
                             path="/"
                             element={<Hero/>}
-                        ></Route>
+                        />
                         <Route
-                            exact
                             path="/about"
                             element={<AboutPage/>}
-                        ></Route>
+                        />
                         <Route
-                            exact
                             path="/project"
                             element={<PortfolioMain/>}
-                        ></Route>
+                        />
                         <Route
-                            exact
                             path="/contact"
                             element={<ContactPage/>}
-                        ></Route>
+                        />
                     </Routes>
                     </Router>
     {/* <Hero/> */}

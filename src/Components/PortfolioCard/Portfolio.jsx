@@ -17,6 +17,7 @@ import Light from "../../assets/Images/Projects/Lightspeed.jpg"
 import OmniBlog from '../../assets/Images/Projects/OmniBlog.jpg'
 import Careersync from '../../assets/Images/Projects/Careersync.jpg'
 import north from '../../assets/Images/Projects/northstar.jpg'
+import travelThrill from '../../assets/Images/Projects/traveltrills.jpg'
 
 const projectsData2 = [
   {
@@ -36,6 +37,16 @@ const projectsData2 = [
     Github:'https://github.com/Saif-Arshad/careerSync',
     livelink:'https://careersyncpro.vercel.app/',
     Built:'Next Js,Tailwind Css,MongoDB Atlas,NextAuth Authentication,css',
+  },
+  
+  {
+    id:3,
+    title: "Travel Thrills",
+    description: "Travel Thrill is a comprehensive travel and tour website designed to enhance the way users plan their trips. Our platform features an AI-powered trip planner that helps users create personalized itineraries with ease.",
+    imageUrl:`${travelThrill}`,
+    Github:'https://github.com/Saif-Arshad/Travel-Thrills',
+    livelink:'https://travelthrills.vercel.app/',
+    Built:'Next js, Tailwind Css   ',
   },
   {
     id:4,
