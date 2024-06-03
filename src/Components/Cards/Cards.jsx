@@ -7,7 +7,8 @@ import React from "react";
 import OmniBlog from '../../assets/Images/Projects/OmniBlog.jpg'
 import Careersync from '../../assets/Images/Projects/Careersync.jpg'
 import travelThrill from '../../assets/Images/Projects/traveltrills.jpg'
-import North from "../../assets/Images/Projects/northstar.jpg"
+import api from '../../assets/Images/Projects/jsonapi.jpg'
+
 const projectsData = [
 
   
@@ -40,15 +41,15 @@ const projectsData = [
   }
 ,
 
-  {
-    id:4,
-    title: "Noth Star",
-    description: "NorthStar is an Ecommerce site powered by Next.js & Redux Toolkit for smooth shopping experience, seamless navigation, and enhanced functionality",
-    imageUrl:`${North}`,
-    Github:'https://github.com/Saif-Arshad/northstar-ecommerce',
-    livelink:'https://northstarpro.vercel.app/',
-    Built:'Next js , Redux ToolKit ',
-  },
+{
+  id:4,
+  title: "Dummy JSON Blog API",
+  description: "The JSON Blog API is a freely accessible public REST API that provides dummy data for your projects or for practicing working with REST APIs. It is a valuable resource for educational purposes, sample codes, testing, and more.",
+  imageUrl:`${api}`,
+  Github:'https://github.com/Saif-Arshad/JsonBlogAPI',
+  livelink:'https://dummyblogapi.vercel.app/',
+  Built:'Next js, MongoDB , REST API  Aceternity UI ',
+},
   
    
 ];

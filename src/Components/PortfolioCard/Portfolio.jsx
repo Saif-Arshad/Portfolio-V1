@@ -50,12 +50,12 @@ const projectsData2 = [
   },
   {
     id:4,
-    title: "JSON Blog API",
+    title: "Dummy JSON Blog API",
     description: "The JSON Blog API is a freely accessible public REST API that provides dummy data for your projects or for practicing working with REST APIs. It is a valuable resource for educational purposes, sample codes, testing, and more.",
     imageUrl:`${api}`,
     Github:'https://github.com/Saif-Arshad/JsonBlogAPI',
-    livelink:'https://jsonblogapi.vercel.app/',
-    Built:'Next js, MongoDB , REST API   ',
+    livelink:'https://dummyblogapi.vercel.app/',
+    Built:'Next js, MongoDB , REST API  Aceternity UI ',
   },
   {
     id:6,
