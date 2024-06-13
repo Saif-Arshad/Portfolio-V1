@@ -12,6 +12,7 @@ import CSplus from "../../assets/Images/Projects/csplus.jpg"
 import mountain from "../../assets/Images/Projects/mountain.jpg"
 import power from "../../assets/Images/Projects/Power Fitness.jpg"
 import currency from "../../assets/Images/Projects/currency.jpg"
+import budgetBuddy from '../../assets/Images/Projects/BudgetBuddy.jpg'
 import api from '../../assets/Images/Projects/jsonapi.jpg'
 import Light from "../../assets/Images/Projects/Lightspeed.jpg"
 import OmniBlog from '../../assets/Images/Projects/OmniBlog.jpg'
@@ -57,6 +58,16 @@ const projectsData2 = [
     livelink:'https://dummyblogapi.vercel.app/',
     Built:'Next js, MongoDB , REST API  Aceternity UI ',
   },
+  {
+    id:3,
+    title: "Budget Buddy",
+    description: "Budget Buddy is a  budget tracking application develop to help users manage their finances efficiently. The app features a user-friendly interface with secure login functionality, enabling users to track their income, expenses, and savings seamlessly.",
+    imageUrl:`${budgetBuddy}`,
+    Github:'https://github.com/Saif-Arshad/budget-buddy',
+    livelink:'https://budgetbuddypro.vercel.app/',
+    Built:'Next js, Tailwind Css , Clerk Js , MongoDB Atlas ',
+  }
+,
   {
     id:6,
     title: "ThinkPad",

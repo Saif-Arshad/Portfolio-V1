@@ -6,21 +6,13 @@
 import React from "react";
 import OmniBlog from '../../assets/Images/Projects/OmniBlog.jpg'
 import Careersync from '../../assets/Images/Projects/Careersync.jpg'
-import travelThrill from '../../assets/Images/Projects/traveltrills.jpg'
+import budgetBuddy from '../../assets/Images/Projects/BudgetBuddy.jpg'
 import api from '../../assets/Images/Projects/jsonapi.jpg'
 
 const projectsData = [
 
   
-  {
-    id: 1,
-    title: "OnmiBlog",
-    description: "OmniBlog is a platform that provides informative articles and blog posts about various aspects of life and has an admin dashboard where the admin can create, update, and delete blogs..",
-    imageUrl:`${OmniBlog}`,
-    Github:'https://github.com/Saif-Arshad/Full-stack-OmniBlog',
-    livelink:'https://omniiblog.vercel.app//',
-    Built:'Next Js,Tailwind Css, MongoDB Atlas,JWT Authentication,Scss,uploadthing,next-themes',
-  },
+
   {
     id: 2,
     title: "CareerSync",
@@ -32,15 +24,23 @@ const projectsData = [
   },
   {
     id:3,
-    title: "Travel Thrills",
-    description: "Travel Thrill is a comprehensive travel and tour website designed to enhance the way users plan their trips. Our platform features an AI-powered trip planner that helps users create personalized itineraries with ease.",
-    imageUrl:`${travelThrill}`,
-    Github:'https://github.com/Saif-Arshad/Travel-Thrills',
-    livelink:'https://travelthrills.vercel.app/',
-    Built:'Next js, Tailwind Css   ',
+    title: "Budget Buddy",
+    description: "Budget Buddy is a  budget tracking application develop to help users manage their finances efficiently. The app features a user-friendly interface with secure login functionality, enabling users to track their income, expenses, and savings seamlessly.",
+    imageUrl:`${budgetBuddy}`,
+    Github:'https://github.com/Saif-Arshad/budget-buddy',
+    livelink:'https://budgetbuddypro.vercel.app/',
+    Built:'Next js, Tailwind Css , Clerk Js , MongoDB Atlas ',
   }
 ,
-
+{
+  id: 1,
+  title: "OnmiBlog",
+  description: "OmniBlog is a platform that provides informative articles and blog posts about various aspects of life and has an admin dashboard where the admin can create, update, and delete blogs..",
+  imageUrl:`${OmniBlog}`,
+  Github:'https://github.com/Saif-Arshad/Full-stack-OmniBlog',
+  livelink:'https://omniiblog.vercel.app//',
+  Built:'Next Js,Tailwind Css, MongoDB Atlas,JWT Authentication,Scss,uploadthing,next-themes',
+},
 {
   id:4,
   title: "Dummy JSON Blog API",
