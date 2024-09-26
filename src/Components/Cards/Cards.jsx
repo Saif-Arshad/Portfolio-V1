@@ -7,19 +7,18 @@ import React from "react";
 import janie from '../../assets/Images/Projects/jane_furniture.jpg'
 import Careersync from '../../assets/Images/Projects/Careersync.jpg'
 import budgetBuddy from '../../assets/Images/Projects/BudgetBuddy.jpg'
-import api from '../../assets/Images/Projects/jsonapi.jpg'
+import gorie from '../../assets/Images/Projects/gorie_furniture.jpg'
 
 const projectsData = [
-
-
   {
-    id: 1,
-    title: "Janie Furnitures",
-    description: "Janie Furniture is an online store featuring a wide selection of home furnishings and has an admin panel where the admin can manage product listings, update details, and oversee orders.",
-    imageUrl: `${janie}`,
-    livelink: 'https://www.janiefurniture.co.uk/',
-    Built: 'Next Js, ShadCN, Tailwind Css, Framer Motion, MongoDB Atlas, Node js, Resend, Uploadthing',
+    id: 4,
+    title: "Gorie Furniture UK",
+    description: "A full-stack e-commerce platform for Gorie Furniture UK. The site has a user-friendly interface and an admin dashboard, enabling the team to approve reviews, manage products, and publish blogs.",
+    imageUrl: `${gorie}`,
+    livelink: 'https://goriefurniture.co.uk/',
+    Built: 'Next js,Node Js, MongoDB , REST API ,Tailwind Css, Framer Motion , ShadCn UI',
   },
+
   {
     id: 2,
     title: "CareerSync",
@@ -39,15 +38,13 @@ const projectsData = [
     Built: 'Next js, Tailwind Css , Clerk Js , MongoDB Atlas ',
   }
   ,
-
   {
-    id: 4,
-    title: "Dummy JSON Blog API",
-    description: "The JSON Blog API is a freely accessible public REST API that provides dummy data for your projects or for practicing working with REST APIs. It is a valuable resource for educational purposes, sample codes, testing, and more.",
-    imageUrl: `${api}`,
-    Github: 'https://github.com/Saif-Arshad/JsonBlogAPI',
-    livelink: 'https://dummyblogapi.vercel.app/',
-    Built: 'Next js, MongoDB , REST API  Aceternity UI ',
+    id: 1,
+    title: "Janie Furnitures",
+    description: "Janie Furniture is an online store featuring a wide selection of home furnishings and has an admin panel where the admin can manage product listings, update details, and oversee orders.",
+    imageUrl: `${janie}`,
+    livelink: 'https://www.janiefurniture.co.uk/',
+    Built: 'Next Js, ShadCN, Tailwind Css, Framer Motion, MongoDB Atlas, Node js, Resend, Uploadthing',
   },
 
 
